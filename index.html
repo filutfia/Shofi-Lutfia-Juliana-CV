@@ -6,466 +6,230 @@
     <title>CV - Shofi Lutfia Juliana</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --primary-purple: #6d28d9;
-            --light-purple: #f5f3ff;
-            --dark-purple: #4c1d95;
-        }
         body {
-            background-color: var(--light-purple);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #1f2937;
+            background-color: #fff5f8;
+            font-family: 'Quicksand', sans-serif;
+            color: #5d4d54;
         }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(109, 40, 217, 0.1);
+        .pink-gradient-header {
+            background: linear-gradient(135deg, #ffd1dc 0%, #ffafcc 100%);
         }
-        .purple-gradient {
-            background: linear-gradient(135deg, #7c3aed, #4c1d95);
+        .card-shadow {
+            box-shadow: 0 10px 30px rgba(255, 182, 193, 0.3);
         }
         .section-title {
-            border-left: 4px solid var(--primary-purple);
-            padding-left: 1rem;
-            color: var(--dark-purple);
-        }
-        .tag {
-            background-color: #ede9fe;
-            color: #6d28d9;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.875rem;
-            font-weight: 500;
-        }
-    </style>
-</head>
-<body class="py-10 px-4 md:px-0">
-
-    <div class="max-w-4xl mx-auto glass-card rounded-3xl shadow-2xl overflow-hidden">
-        
-        <!-- Header Section -->
-        <div class="purple-gradient p-8 md:p-12 text-white text-center md:text-left flex flex-col md:flex-row items-center gap-8">
-            <div class="relative">
-                <div class="w-40 h-40 md:w-48 md:h-48 rounded-full border-4 border-white/30 overflow-hidden bg-purple-200">
-                    <img src="WhatsApp Image 2026-02-05 at 20.10.41.jpeg" 
-                         alt="Foto Shofi Lutfia Juliana" 
-                         class="w-full h-full object-cover"
-                         onerror="this.src='https://via.placeholder.com/200?text=SLJ'">
-                </div>
-            </div>
-            <div class="flex-1">
-                <h1 class="text-3xl md:text-5xl font-bold mb-2">Shofi Lutfia Juliana</h1>
-                <p class="text-purple-100 text-lg md:text-xl font-light mb-4">Pelajar | Enthusiast Learner</p>
-                <div class="flex flex-wrap justify-center md:justify-start gap-4 text-sm">
-                    <span class="flex items-center gap-2"><i class="fas fa-calendar"></i> 12 Juli 2008</span>
-                    <span class="flex items-center gap-2"><i class="fas fa-phone"></i> +62 838 2742 5476</span>
-                    <span class="flex items-center gap-2"><i class="fas fa-map-marker-alt"></i> Bandung, Indonesia</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3">
-            
-            <!-- Left Column (Sidebar) -->
-            <div class="bg-gray-50/50 p-8 border-r border-gray-100">
-                
-                <!-- Contact & Social -->
-                <div class="mb-10">
-                    <h3 class="font-bold text-lg text-purple-900 mb-4 flex items-center gap-2">
-                        <i class="fas fa-user-circle"></i> Kontak & Sosial
-                    </h3>
-                    <ul class="space-y-3 text-sm text-gray-600">
-                        <li class="flex items-center gap-3">
-                            <i class="fab fa-instagram text-purple-600 w-5"></i>
-                            <span>@filutfiaa</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fab fa-facebook text-purple-600 w-5"></i>
-                            <span>-</span>
-                        </li>
-                        <li class="flex items-center gap-3 text-xs leading-tight">
-                            <i class="fas fa-home text-purple-600 w-5"></i>
-                            <span>Kp. Lebakbiru, Desa Ciheulang, Kec. Ciparay, Kab. Bandung</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Skills -->
-                <div class="mb-10">
-                    <h3 class="font-bold text-lg text-purple-900 mb-4 flex items-center gap-2">
-                        <i class="fas fa-star"></i> Keahlian
-                    </h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="tag">Microsoft Word</span>
-                        <span class="tag">Komputer Dasar</span>
-                        <span class="tag">Kedisiplinan</span>
-                        <span class="tag">Kerja Sama Tim</span>
-                    </div>
-                </div>
-
-                <!-- Languages -->
-                <div class="mb-10">
-                    <h3 class="font-bold text-lg text-purple-900 mb-4 flex items-center gap-2">
-                        <i class="fas fa-language"></i> Bahasa
-                    </h3>
-                    <ul class="space-y-2 text-sm text-gray-600">
-                        <li class="flex justify-between">
-                            <span>B. Indonesia</span>
-                            <span class="font-semibold text-purple-700 underline underline-offset-4 decoration-2">Lancar</span>
-                        </li>
-                        <li class="flex justify-between">
-                            <span>B. Inggris</span>
-                            <span class="font-semibold text-purple-700 underline underline-offset-4 decoration-2">Dasar</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Hobbies -->
-                <div>
-                    <h3 class="font-bold text-lg text-purple-900 mb-4 flex items-center gap-2">
-                        <i class="fas fa-heart"></i> Hobi
-                    </h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="tag"><i class="fas fa-book mr-1"></i> Membaca</span>
-                        <span class="tag"><i class="fas fa-utensils mr-1"></i> Memasak</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Column (Main Content) -->
-            <div class="col-span-2 p-8 md:p-12">
-                
-                <!-- About Me -->
-                <section class="mb-12">
-                    <h2 class="text-2xl font-bold section-title mb-4">Tentang Saya</h2>
-                    <p class="text-gray-600 leading-relaxed">
-                        Halo! Saya adalah pribadi yang sangat suka membaca dan mengeksplorasi dunia kuliner dengan memasak camilan. 
-                        Saya juga senang menonton dan selalu memiliki semangat tinggi untuk mencoba hal-hal baru yang bermanfaat.
-                    </p>
-                </section>
-
-                <!-- Experience -->
-                <section class="mb-12">
-                    <h2 class="text-2xl font-bold section-title mb-6">Pengalaman Organisasi</h2>
-                    <div class="space-y-8">
-                        <div class="relative pl-6 border-l-2 border-purple-200">
-                            <div class="absolute -left-2 top-0 w-4 h-4 rounded-full bg-purple-600"></div>
-                            <h4 class="font-bold text-purple-900">Paskibra (SMA)</h4>
-                            <p class="text-sm text-gray-500 mb-2">2023 - Sekarang</p>
-                            <p class="text-gray-600 text-sm italic">Melatih kedisiplinan dan tanggung jawab, terbiasa mengikuti latihan rutin dan mematuhi aturan organisasi.</p>
-                        </div>
-                        <div class="relative pl-6 border-l-2 border-purple-200">
-                            <div class="absolute -left-2 top-0 w-4 h-4 rounded-full bg-purple-400"></div>
-                            <h4 class="font-bold text-purple-900">Ekstrakurikuler Komputer (SMP)</h4>
-                            <p class="text-sm text-gray-500 mb-2">2020 - 2023</p>
-                            <p class="text-gray-600 text-sm">Mempelajari dasar pengoperasian komputer, menggunakan Microsoft Word, serta membuat tugas dan dokumen sederhana.</p>
-                        </div>
-                        <div class="relative pl-6 border-l-2 border-purple-200">
-                            <div class="absolute -left-2 top-0 w-4 h-4 rounded-full bg-purple-300"></div>
-                            <h4 class="font-bold text-purple-900">Pramuka (SD)</h4>
-                            <p class="text-sm text-gray-500 mb-2">2014 - 2020</p>
-                            <p class="text-gray-600 text-sm">Melatih dasar-dasar kedisiplinan, kerja sama dalam tim, dan menanamkan rasa tanggung jawab sejak dini.</p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Education -->
-                <section class="mb-12">
-                    <h2 class="text-2xl font-bold section-title mb-6">Pendidikan</h2>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div class="p-4 rounded-xl bg-purple-50 border border-purple-100">
-                            <h4 class="font-bold text-purple-900">TK</h4>
-                            <p class="text-xs text-purple-600">Lulus Tahun 2013</p>
-                        </div>
-                        <div class="p-4 rounded-xl bg-purple-50 border border-purple-100">
-                            <h4 class="font-bold text-purple-900">Sekolah Dasar (SD)</h4>
-                            <p class="text-xs text-purple-600">Lulus Tahun 2020</p>
-                        </div>
-                        <div class="p-4 rounded-xl bg-purple-50 border border-purple-100">
-                            <h4 class="font-bold text-purple-900">SMP</h4>
-                            <p class="text-xs text-purple-600">Lulus Tahun 2023</p>
-                        </div>
-                        <div class="p-4 rounded-xl bg-purple-50 border border-purple-100">
-                            <h4 class="font-bold text-purple-900">SMA</h4>
-                            <p class="text-xs text-purple-600">Lulus Tahun 2026</p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Achievement/Certificates -->
-                <section>
-                    <h2 class="text-2xl font-bold section-title mb-4">Sertifikat & Prestasi</h2>
-                    <div class="flex items-start gap-4 p-4 bg-yellow-50 rounded-xl border border-yellow-100">
-                        <i class="fas fa-trophy text-yellow-500 text-2xl mt-1"></i>
-                        <div>
-                            <h4 class="font-bold text-yellow-900">Juara Kaligrafi Putri (SD)</h4>
-                            <p class="text-sm text-yellow-800/80">Penghargaan tingkat sekolah dasar dalam seni menulis indah Al-Qur'an.</p>
-                        </div>
-                    </div>
-                </section>
-
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="bg-gray-100 p-6 text-center text-xs text-gray-500 border-t border-gray-200">
-            &copy; 2024 Shofi Lutfia Juliana. Dibuat dengan semangat belajar.
-        </div>
-    </div>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Shofi Lutfia Juliana</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root {
-            --primary-pink: #f472b6;
-            --soft-pink: #fdf2f8;
-            --accent-pink: #db2777;
-            --text-gray: #4b5563;
-        }
-        body {
-            background-color: #fff5f7;
-            font-family: 'Quicksand', 'Segoe UI', sans-serif;
-            color: var(--text-gray);
-        }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(244, 114, 182, 0.2);
-        }
-        .pink-gradient {
-            background: linear-gradient(135deg, #fbcfe8, #f472b6);
-        }
-        .section-title {
-            border-bottom: 3px solid #fce7f3;
-            display: inline-block;
-            margin-bottom: 1.5rem;
-            color: var(--accent-pink);
+            color: #ff758f;
+            border-left: 4px solid #ff758f;
+            padding-left: 12px;
             font-weight: 700;
         }
-        .tag {
-            background-color: #fce7f3;
-            color: #be185d;
-            padding: 5px 15px;
-            border-radius: 12px;
-            font-size: 0.85rem;
-            font-weight: 600;
+        .tag-pink {
+            background-color: #ffe5ec;
+            color: #ff4d6d;
+            border: 1px solid #ffb3c1;
         }
-        .social-link:hover {
-            color: var(--accent-pink);
-            transform: translateY(-2px);
-            transition: all 0.3s;
+        .edu-box {
+            background: white;
+            border: 1px solid #ffe5ec;
+            transition: all 0.3s ease;
+        }
+        .edu-box:hover {
+            transform: translateY(-3px);
+            border-color: #ffafcc;
+        }
+        .profile-img-container {
+            border: 6px solid rgba(255, 255, 255, 0.5);
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="py-12 px-4">
+<body class="py-8 md:py-16 px-4">
 
-    <div class="max-w-4xl mx-auto glass-card rounded-[2rem] shadow-xl overflow-hidden border border-pink-100">
+    <div class="max-w-5xl mx-auto bg-white/80 backdrop-blur-md rounded-[2.5rem] overflow-hidden card-shadow">
         
-        <!-- Header Profile -->
-        <div class="pink-gradient p-10 text-center relative">
-            <div class="absolute top-4 right-6 opacity-20 text-white text-6xl">
-                <i class="fas fa-heart"></i>
+        <!-- Header Section -->
+        <header class="pink-gradient-header p-8 md:p-12 text-center relative">
+            <div class="absolute top-0 right-0 p-8 opacity-10 pointer-events-none">
+                <i class="fas fa-sparkles text-7xl text-white"></i>
             </div>
             
             <div class="relative inline-block mb-6">
-                <div class="w-36 h-36 md:w-44 md:h-44 rounded-full border-8 border-white/50 overflow-hidden shadow-lg mx-auto bg-pink-50">
-                    <!-- Foto Profil -->
-                    <img src="https://ui-avatars.com/api/?name=Shofi+Lutfia+Juliana&background=fce7f3&color=db2777&size=256" 
+                <div class="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden profile-img-container shadow-inner bg-pink-50 mx-auto">
+                    <!-- Foto Profil Placeholder -->
+                    <img src="WhatsApp Image 2026-02-05 at 20.10.41.jpeg" 
                          alt="Foto Shofi Lutfia Juliana" 
-                         class="w-full h-full object-cover"
-                         onerror="this.src='https://via.placeholder.com/200?text=Shofi'">
+                         class="w-full h-full object-cover">
                 </div>
             </div>
 
-            <h1 class="text-3xl md:text-4xl font-bold text-white mb-2 drop-shadow-sm">Shofi Lutfia Juliana</h1>
-            <p class="text-pink-50 font-medium tracking-wide">Student & Problem Solver</p>
-        </div>
+            <h1 class="text-3xl md:text-5xl font-bold text-white mb-3 drop-shadow-sm">Shofi Lutfia Juliana</h1>
+            <p class="text-pink-900/60 font-medium text-lg italic">"Problem solver yang teliti & pembelajar yang antusias"</p>
+        </header>
 
-        <!-- Main Content Wrapper -->
-        <div class="grid grid-cols-1 md:grid-cols-12">
+        <div class="flex flex-col md:flex-row">
             
-            <!-- Left Panel -->
-            <div class="md:col-span-4 bg-white/50 p-8 border-r border-pink-50">
+            <!-- Sidebar (Informasi) -->
+            <aside class="w-full md:w-1/3 bg-[#fff0f3]/50 p-8 md:p-10 border-r border-pink-100">
                 
-                <!-- Personal Info -->
-                <div class="mb-10">
-                    <h3 class="text-pink-600 font-bold uppercase tracking-wider text-xs mb-4">Informasi Pribadi</h3>
-                    <div class="space-y-4 text-sm">
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-lg bg-pink-100 flex items-center justify-center text-pink-500">
-                                <i class="fas fa-calendar-alt"></i>
-                            </div>
+                <!-- Kontak -->
+                <section class="mb-10">
+                    <h3 class="text-sm font-bold uppercase tracking-widest text-pink-400 mb-5">Kontak Saya</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-4 text-sm">
+                            <i class="fas fa-calendar-alt text-pink-400 mt-1"></i>
                             <div>
-                                <p class="text-[10px] text-gray-400 uppercase">Lahir</p>
+                                <p class="text-gray-400 text-[10px] uppercase">Tanggal Lahir</p>
                                 <p class="font-semibold">12 Juli 2008</p>
                             </div>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-lg bg-pink-100 flex items-center justify-center text-pink-500">
-                                <i class="fas fa-phone"></i>
-                            </div>
+                        </li>
+                        <li class="flex items-start gap-4 text-sm">
+                            <i class="fas fa-phone-alt text-pink-400 mt-1"></i>
                             <div>
-                                <p class="text-[10px] text-gray-400 uppercase">Telepon</p>
+                                <p class="text-gray-400 text-[10px] uppercase">Nomor Telepon</p>
                                 <p class="font-semibold">+62 838 2742 5476</p>
                             </div>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <div class="w-8 h-8 rounded-lg bg-pink-100 flex items-center justify-center text-pink-500 shrink-0">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
+                        </li>
+                        <li class="flex items-start gap-4 text-sm">
+                            <i class="fas fa-map-marker-alt text-pink-400 mt-1"></i>
                             <div>
-                                <p class="text-[10px] text-gray-400 uppercase">Alamat</p>
-                                <p class="font-semibold leading-snug">Kp. Lebakbiru, Desa Ciheulang, Ciparay, Bandung</p>
+                                <p class="text-gray-400 text-[10px] uppercase">Alamat</p>
+                                <p class="font-semibold leading-relaxed">Kp. Lebakbiru, Desa Ciheulang, Kec. Ciparay, Kab. Bandung</p>
                             </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Sosmed -->
+                <section class="mb-10">
+                    <h3 class="text-sm font-bold uppercase tracking-widest text-pink-400 mb-5">Media Sosial</h3>
+                    <div class="flex flex-col gap-3">
+                        <a href="#" class="flex items-center gap-3 text-sm hover:text-pink-500 transition-colors">
+                            <i class="fab fa-instagram text-pink-400 text-lg w-6"></i> @filutfiaa
+                        </a>
+                        <div class="flex items-center gap-3 text-sm text-gray-300">
+                            <i class="fab fa-facebook text-gray-200 text-lg w-6"></i> -
                         </div>
                     </div>
-                </div>
-
-                <!-- Social Media -->
-                <div class="mb-10">
-                    <h3 class="text-pink-600 font-bold uppercase tracking-wider text-xs mb-4">Media Sosial</h3>
-                    <div class="flex flex-col gap-3 text-sm">
-                        <a href="#" class="social-link flex items-center gap-3">
-                            <i class="fab fa-instagram text-pink-400"></i> @filutfiaa
-                        </a>
-                        <span class="flex items-center gap-3 opacity-50 cursor-not-allowed">
-                            <i class="fab fa-facebook text-pink-400"></i> -
-                        </span>
-                    </div>
-                </div>
+                </section>
 
                 <!-- Keahlian -->
-                <div class="mb-10">
-                    <h3 class="text-pink-600 font-bold uppercase tracking-wider text-xs mb-4">Keahlian</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="tag">Problem Solving</span>
-                        <span class="tag">Microsoft Word</span>
-                        <span class="tag">Manajemen Waktu</span>
-                        <span class="tag">Disiplin</span>
-                    </div>
-                </div>
-
-                <!-- Bahasa -->
-                <div>
-                    <h3 class="text-pink-600 font-bold uppercase tracking-wider text-xs mb-4">Bahasa</h3>
-                    <div class="space-y-2">
-                        <div class="w-full bg-pink-100 rounded-full h-1.5">
-                            <div class="bg-pink-400 h-1.5 rounded-full" style="width: 100%"></div>
-                        </div>
-                        <p class="text-xs flex justify-between"><span>Indonesia</span> <span>Lancar</span></p>
-                        
-                        <div class="w-full bg-pink-100 rounded-full h-1.5 mt-3">
-                            <div class="bg-pink-300 h-1.5 rounded-full" style="width: 45%"></div>
-                        </div>
-                        <p class="text-xs flex justify-between"><span>Inggris</span> <span>Dasar</span></p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Panel -->
-            <div class="md:col-span-8 p-8 md:p-12 bg-white/30">
-                
-                <!-- About Me -->
                 <section class="mb-10">
-                    <h2 class="text-xl font-bold section-title">Tentang Saya</h2>
-                    <p class="text-gray-600 leading-relaxed text-sm md:text-base">
-                        Saya adalah pribadi yang gemar membaca dan memiliki ketertarikan tinggi dalam menonton serta mengeksplorasi hal-hal baru. 
-                        Saya sangat menikmati tantangan dalam <span class="text-pink-600 font-semibold">memecahkan masalah secara teliti</span> hingga tuntas. Karakter saya yang disiplin dan penuh semangat membuat saya selalu siap belajar di lingkungan baru.
+                    <h3 class="text-sm font-bold uppercase tracking-widest text-pink-400 mb-5">Keahlian</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold tag-pink">Problem Solving</span>
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold tag-pink">Microsoft Word</span>
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold tag-pink">Ketelitian Tinggi</span>
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold tag-pink">Kerja Sama Tim</span>
+                    </div>
+                </section>
+
+                <!-- Hobi & Bahasa -->
+                <section>
+                    <h3 class="text-sm font-bold uppercase tracking-widest text-pink-400 mb-5">Bahasa</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-1">
+                                <span>Indonesia</span>
+                                <span class="text-pink-400">100%</span>
+                            </div>
+                            <div class="w-full bg-white rounded-full h-1.5 border border-pink-50">
+                                <div class="bg-pink-300 h-full rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-1">
+                                <span>Inggris</span>
+                                <span class="text-pink-400">50%</span>
+                            </div>
+                            <div class="w-full bg-white rounded-full h-1.5 border border-pink-50">
+                                <div class="bg-pink-200 h-full rounded-full" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="w-full md:w-2/3 p-8 md:p-12">
+                
+                <!-- Tentang Saya -->
+                <section class="mb-12">
+                    <h2 class="text-2xl font-bold section-title mb-6">Tentang Saya</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Halo! Saya adalah seseorang yang memiliki ketertarikan besar dalam mengeksplorasi dunia melalui buku dan video. Karakter utama saya adalah <span class="text-pink-500 font-bold">ketelitian</span>; saya sangat menyukai proses memecahkan masalah dengan detail sampai benar-benar tuntas. Selain itu, mencoba hal-hal baru adalah semangat hidup saya.
                     </p>
                 </section>
 
-                <!-- Experience -->
-                <section class="mb-10">
-                    <h2 class="text-xl font-bold section-title">Pengalaman Organisasi</h2>
-                    <div class="space-y-6">
-                        <div class="flex gap-4">
-                            <div class="flex flex-col items-center">
-                                <div class="w-3 h-3 rounded-full bg-pink-400 ring-4 ring-pink-50"></div>
-                                <div class="w-0.5 h-full bg-pink-100"></div>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-800">Paskibra (SMA)</h4>
-                                <p class="text-xs text-pink-500 font-semibold mb-2">2023 - 2026</p>
-                                <p class="text-sm text-gray-500">Melatih kedisiplinan dan tanggung jawab tinggi melalui latihan fisik rutin dan kepatuhan terhadap aturan organisasi.</p>
-                            </div>
+                <!-- Pengalaman Organisasi -->
+                <section class="mb-12">
+                    <h2 class="text-2xl font-bold section-title mb-8">Pengalaman Organisasi</h2>
+                    <div class="space-y-8">
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1.5 before:w-4 before:h-4 before:bg-pink-300 before:rounded-full before:z-10 after:content-[''] after:absolute after:left-[7px] after:top-6 after:w-[2px] after:h-[calc(100%+1.5rem)] after:bg-pink-50 last:after:hidden">
+                            <h4 class="font-bold text-gray-800">Paskibra (SMA)</h4>
+                            <p class="text-pink-400 text-xs font-bold mb-2">2023 - 2026</p>
+                            <p class="text-sm text-gray-500 italic">Melatih kedisiplinan dan tanggung jawab, terbiasa mengikuti latihan rutin dan aturan organisasi secara konsisten.</p>
                         </div>
-                        <div class="flex gap-4">
-                            <div class="flex flex-col items-center">
-                                <div class="w-3 h-3 rounded-full bg-pink-300"></div>
-                                <div class="w-0.5 h-full bg-pink-100"></div>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-800">Ekstrakurikuler Komputer (SMP)</h4>
-                                <p class="text-xs text-pink-500 font-semibold mb-2">2020 - 2023</p>
-                                <p class="text-sm text-gray-500">Mendalami dasar operasional komputer dan penguasaan Microsoft Word untuk pembuatan dokumen yang rapi.</p>
-                            </div>
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1.5 before:w-4 before:h-4 before:bg-pink-200 before:rounded-full before:z-10 after:content-[''] after:absolute after:left-[7px] after:top-6 after:w-[2px] after:h-[calc(100%+1.5rem)] after:bg-pink-50 last:after:hidden">
+                            <h4 class="font-bold text-gray-800">Ekstrakurikuler Komputer (SMP)</h4>
+                            <p class="text-pink-400 text-xs font-bold mb-2">2020 - 2023</p>
+                            <p class="text-sm text-gray-500">Mempelajari dasar pengoperasian komputer, penggunaan Microsoft Word untuk pembuatan tugas dan dokumen sederhana.</p>
                         </div>
-                        <div class="flex gap-4">
-                            <div class="flex flex-col items-center">
-                                <div class="w-3 h-3 rounded-full bg-pink-200"></div>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-800">Pramuka (SD)</h4>
-                                <p class="text-xs text-pink-500 font-semibold mb-2">2014 - 2020</p>
-                                <p class="text-sm text-gray-500">Membangun fondasi kerja sama tim, keberanian, dan karakter tanggung jawab sejak dini.</p>
-                            </div>
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1.5 before:w-4 before:h-4 before:bg-pink-100 before:rounded-full before:z-10">
+                            <h4 class="font-bold text-gray-800">Pramuka (SD)</h4>
+                            <p class="text-pink-400 text-xs font-bold mb-2">2014 - 2020</p>
+                            <p class="text-sm text-gray-500">Membangun dasar-dasar kedisiplinan, kerja sama dalam tim, dan rasa tanggung jawab melalui berbagai kegiatan lapangan.</p>
                         </div>
                     </div>
                 </section>
 
-                <!-- Education -->
-                <section class="mb-10">
-                    <h2 class="text-xl font-bold section-title">Riwayat Pendidikan</h2>
-                    <div class="grid grid-cols-2 gap-3">
-                        <div class="p-4 rounded-2xl bg-white border border-pink-50 shadow-sm">
-                            <p class="text-[10px] font-bold text-pink-400">2023 - 2026</p>
-                            <h4 class="font-bold text-sm">SMA</h4>
+                <!-- Pendidikan -->
+                <section class="mb-12">
+                    <h2 class="text-2xl font-bold section-title mb-6">Pendidikan</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
+                        <div class="p-4 rounded-2xl edu-box">
+                            <p class="text-xs font-bold text-pink-300 mb-1">Lulus 2013</p>
+                            <h4 class="font-bold text-gray-700">Taman Kanak-kanak</h4>
                         </div>
-                        <div class="p-4 rounded-2xl bg-white border border-pink-50 shadow-sm">
-                            <p class="text-[10px] font-bold text-pink-400">2020 - 2023</p>
-                            <h4 class="font-bold text-sm">SMP</h4>
+                        <div class="p-4 rounded-2xl edu-box">
+                            <p class="text-xs font-bold text-pink-300 mb-1">Lulus 2020</p>
+                            <h4 class="font-bold text-gray-700">Sekolah Dasar (SD)</h4>
                         </div>
-                        <div class="p-4 rounded-2xl bg-white border border-pink-50 shadow-sm">
-                            <p class="text-[10px] font-bold text-pink-400">2014 - 2020</p>
-                            <h4 class="font-bold text-sm">Sekolah Dasar (SD)</h4>
+                        <div class="p-4 rounded-2xl edu-box">
+                            <p class="text-xs font-bold text-pink-300 mb-1">Lulus 2023</p>
+                            <h4 class="font-bold text-gray-700">SMP</h4>
                         </div>
-                        <div class="p-4 rounded-2xl bg-white border border-pink-50 shadow-sm">
-                            <p class="text-[10px] font-bold text-pink-400">Lulus 2013</p>
-                            <h4 class="font-bold text-sm">TK</h4>
+                        <div class="p-4 rounded-2xl edu-box">
+                            <p class="text-xs font-bold text-pink-300 mb-1">Lulus 2026</p>
+                            <h4 class="font-bold text-gray-700">SMA</h4>
                         </div>
                     </div>
                 </section>
 
-                <!-- Certificate -->
+                <!-- Sertifikat -->
                 <section>
-                    <h2 class="text-xl font-bold section-title">Sertifikat</h2>
-                    <div class="p-4 rounded-2xl bg-pink-50 border-l-4 border-pink-400 flex items-center gap-4">
-                        <i class="fas fa-certificate text-pink-400 text-xl"></i>
+                    <h2 class="text-2xl font-bold section-title mb-4">Sertifikat & Prestasi</h2>
+                    <div class="flex items-center gap-5 p-5 bg-pink-50/50 border border-pink-100 rounded-3xl">
+                        <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-pink-400 shadow-sm shrink-0">
+                            <i class="fas fa-award text-2xl"></i>
+                        </div>
                         <div>
-                            <p class="font-bold text-gray-800 text-sm">Kaligrafi Putri</p>
-                            <p class="text-xs text-gray-500">Penghargaan Tingkat Sekolah Dasar</p>
+                            <h4 class="font-bold text-gray-800">Kaligrafi Putri (SD)</h4>
+                            <p class="text-xs text-gray-400 uppercase tracking-tighter">Pencapaian Seni Kaligrafi</p>
                         </div>
                     </div>
                 </section>
 
-            </div>
+            </main>
         </div>
 
         <!-- Footer -->
-        <div class="bg-pink-100/30 p-6 text-center">
-            <p class="text-[10px] text-pink-400 uppercase tracking-widest font-bold">
-                Created with Love &bull; Shofi Lutfia Juliana &bull; 2026
+        <footer class="bg-white border-t border-pink-50 p-6 text-center">
+            <p class="text-[10px] font-bold text-pink-200 uppercase tracking-[0.3em]">
+                &copy; 2026 Shofi Lutfia Juliana • Created with Passion
             </p>
-        </div>
+        </footer>
+
     </div>
 
 </body>
